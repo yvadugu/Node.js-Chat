@@ -1,6 +1,6 @@
 //	Customization
 
-var appPort = 16558;
+var appPort = process.env.PORT || 7000;
 
 // Librairies
 
